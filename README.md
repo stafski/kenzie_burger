@@ -4,24 +4,11 @@ Este projeto foi desenvolvido durante o programa de estudos da Kenzie Academy Br
 
 ## Descrição
 
-Kenzie Burger é uma hamburgueria online, que exibe uma variadades de produtos para escolher. Os usuários podem acessar uma página responsiva, fazer registro, fazer login, pesquisar por termos específicos, adicionar e excluir itens ao carrinho de compras, além de ver o total da compra.
+Kenzie Burger é uma hamburgueria online, que exibe uma variedade de produtos para escolher. Os usuários podem acessar uma página responsiva, fazer registro, fazer login, pesquisar por termos específicos, adicionar e excluir itens ao carrinho de compras, além de ver o total da compra.
 
-## Funcionalidade
+## Funcionalidades
 
 - **Login e Cadastro de Usuário:** Os usuários devem conseguir se cadastrar e fazer login na aplicação.
-
-- **Zod:** Utilizado Zod em todos os formulários da aplicação, com as seguintes validações:
-
-**Campos obrigatórios**;
-
-**Requisitos de senha:**
-Mínimo de 7 caracteres;
-Pelo menos 1 caractere especial;
-Pelo menos 1 número;
-Pelo menos 1 letra minúscula;
-Pelo menos 1 letra maiúscula.
-
-- **React Router Dom:** Utilizado o React Router Dom para criar as rotas da aplicação.
 
 - **Autologin - Proteção de Rotas:** Autologin implementado no contexto, garantindo que os usuários não logados não possam acessar o painel da aplicação.
 
@@ -33,14 +20,20 @@ Pelo menos 1 letra maiúscula.
 
 ## API
 
-Foi utilizada a seguinte API para este projeto:
-**Hamburgueria Kenzie V2 API**
+Foi utilizada a seguinte API para este projeto: **Hamburgueria Kenzie V2 API**
 
 URL base: https://hamburgueria-kenzie-v2.herokuapp.com
 
 ## Tecnologias Utilizadas
 
-Aplicação feita em _Typescript + React_. Algumas bibliotecas que foram utilizadas: _React-Router-Dom_, _Styled-Components_, _React-Hook-Form_, _Zod_, _Axios_ e _react-toastify_.
+Aplicação feita em _Typescript + React_. Algumas bibliotecas que foram utilizadas:
+
+- Axios: Para fazer as requisições da API.
+- Styled-components: Para estilizar a aplicação.
+- React-router-dom: Para criar rotas de páginas.
+- React-hook-form: Para pegar os dados dos formulários.
+- Zod: Para validação de dados.
+- React-toastify: Para mostrar mensagens de toast após requisições.
 
 ## Lógica de Programação
 
@@ -48,7 +41,7 @@ A lógica de programação foi aplicada para manipular os elementos da página, 
 
 ## Link
 
-[Kenzie Burger](https://hamburgueria-v2-stafski-stafski.vercel.app/)
+[Kenzie Burger](https://hamburgueria-v2-stafski-stafski.vercel.app)
 
 ## Author
 
@@ -65,19 +58,6 @@ Kenzie Burger is an online hamburger restaurant that displays a variety of produ
 ## Features
 
 - **Login and User Registration:** Users can register and log in to the application.
-
-- **Zod:** Zod was used in all application forms with the following validations:
-
-Mandatory fields;
-
-Password requirements:
-Minimum of 7 characters;
-At least 1 special character;
-At least 1 number;
-At least 1 lowercase letter;
-At least 1 uppercase letter.
-
-- **React Router Dom:** React Router Dom was used to create the application's routes.
 
 - **Autologin - Route Protection:** Autologin was implemented in the context, ensuring that non-logged-in users cannot access the application's dashboard.
 
@@ -96,7 +76,14 @@ Base URL: https://hamburgueria-kenzie-v2.herokuapp.com
 
 ## Technologies Used
 
-The application was built using Typescript + React. Some of the libraries used include: React-Router-Dom, Styled-Components, React-Hook-Form, Zod, and react-toastify.
+Application developed with Typescript + React. Some of the libraries used are:
+
+- Axios: For making API requests.
+- Styled-components: For styling the application.
+- React-router-dom: For creating page routes.
+- React-hook-form: For handling form data.
+- Zod: For data validation.
+- React-toastify: For displaying toast messages after requests.
 
 ## Programming Logic
 
