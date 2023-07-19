@@ -40,7 +40,7 @@ URL base: https://hamburgueria-kenzie-v2.herokuapp.com
 
 ## Tecnologias Utilizadas
 
-Aplicação feita em _Typescript + React_. Algumas bibliotecas que foram utilizadas: _React-Router-Dom_, _Styled-Components_, _React-Hook-Form_, _Zod_ e _react-toastify_.
+Aplicação feita em _Typescript + React_. Algumas bibliotecas que foram utilizadas: _React-Router-Dom_, _Styled-Components_, _React-Hook-Form_, _Zod_, _Axios_ e _react-toastify_.
 
 ## Lógica de Programação
 
